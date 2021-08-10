@@ -4,10 +4,11 @@
     "description": "",
     "main": "./dist/server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "knex": "knex",
         "dev": "nodemon src/server.js",
-        "build": "webpack"
+        "test": "jest --detectOpenHandles --verbose",
+        "clear_jest": "jest --clearCache",
+        "knex:migrate:latest": "knex migrate:latest",
+        "knex:seed": "knex seed:run"
     },
     "author": "",
     "license": "ISC",
@@ -23,6 +24,7 @@
     },
     "dependencies": {
         "ajv": "^6.12.6",
+        "cors": "^2.8.5",
         "dotenv": "^10.0.0",
         "knex": "^0.21.21",
         "mysql2": "^2.3.0",

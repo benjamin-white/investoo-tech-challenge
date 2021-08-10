@@ -16,7 +16,7 @@ services:
     depends_on:
       - mysql
   mysql:
-    image: mysql:8
+    image: mysql:5.7@sha256:45ad5952e4f304d39aedb02caf7e0afc30a310e66f7ab60af8acf20fd4a0f54c
     container_name: mysql
     restart: always
     ports:

@@ -40,5 +40,7 @@ Once you've done this, please take a look at the below questions and have a go a
 * Go into the backend folder `cd backend/`
 * Build, create, start, and attach to containers `docker-compose up -d`
 * Install dependencies `docker-compose run --rm offers npm i`
-* Run migrations `docker-compose run --rm offers npx knex migrate:latest`
-* Run seeds `docker-compose run --rm offers npx knex seed:run`
+* Run migrations `docker-compose run --rm offers npm run knex:migrate:latest`
+* Run seeds `docker-compose run --rm offers npm run knex:seed`
+* Expose App logs `docker-compose logs -f`
+* The API is exposed on port `3000` by default
