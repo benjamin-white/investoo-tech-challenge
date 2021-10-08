@@ -1,5 +1,5 @@
-const db = require('./src/database/knex')
 const knexCleaner = require('knex-cleaner')
+const db = require('./src/database/knex')
 
 jest.setTimeout(60000)
 

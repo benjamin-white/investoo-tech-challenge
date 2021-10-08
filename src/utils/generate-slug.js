@@ -1,5 +1,5 @@
-module.exports = function generateSlug() {
-  return Object.values(arguments)
+module.exports = function generateSlug(...args) {
+  return Object.values(args)
     .join(' ')
     .toLowerCase()
     .replace(/'/g, '')
