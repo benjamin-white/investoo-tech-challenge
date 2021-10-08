@@ -11,7 +11,7 @@ Once you've done this, please take a look at the below questions and have a go a
 **Please, do not spend hours on this challenge. If you've spent more than 2 hours working on this, I'd much prefer you to stop where you are, and write some notes detailing what your next steps would have been. No one likes a long test!**
 
 ### Requirements
-* Implement query parameter filtering for your API. Think about where you'd perform this filtering, it's syntax, and usability. Below are some examples, **but you don't need to implement all of these!**
+* Implement query parameter filtering for your API. Think about where you'd perform this filtering, it's syntax, and usability. Below are some examples, **but you do not need to implement all of these!**
   * property is greater/less than/equal to X
   * property has date earlier/later than X
   * property contains/does not contain X (if the property is an array)
